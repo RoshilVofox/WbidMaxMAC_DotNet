@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WBid.WBidiPad.Core\WBid.WBidiPad.Core.csproj" />
+    <ProjectReference Include="..\WBid.WBidiPad.Model\WBid.WBidiPad.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>ThirdParty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\WBidMac\ThrirdParty\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\WBidMac\ThrirdParty\protobuf-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

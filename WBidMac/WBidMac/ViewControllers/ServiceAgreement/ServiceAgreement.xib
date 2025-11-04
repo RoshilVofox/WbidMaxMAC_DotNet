@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ServiceAgreementController">
+            <connections>
+                <outlet property="btnOk" destination="5r2-Sq-PgT" id="flC-tY-sQZ"/>
+                <outlet property="view" destination="4" id="17"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="4" customClass="ServiceAgreement">
+            <rect key="frame" x="0.0" y="0.0" width="470" height="296"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5r2-Sq-PgT">
+                    <rect key="frame" x="197" y="6" width="53" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zo3-OV-Lbk">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                    </buttonCell>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0z1-gq-qVo">
+                    <rect key="frame" x="176" y="267" width="128" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Service Agreement" id="tH9-Qa-SJb">
+                        <font key="font" metaFont="systemBold"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d8Y-Zc-f5r">
+                    <rect key="frame" x="26" y="38" width="418" height="211"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" alignment="justified" id="kOT-Pn-4Zp">
+                        <font key="font" metaFont="system"/>
+                        <mutableString key="title">Your subscription grants you a time limited service agreement to use our database clients (CrewBid – WBidMax) to access and process data.  Your subscription time may be 1 month or 12 months.  We agree to service the clients to remain functional and we will retain ownership of the software.  Your service agreement allows you to use our database clients to download specific data and then to query the data with select (filter) and sort capabilities.  This will ultimately result in creating what is called a bid list from the data.  In our service agreement, we will maintain the server for functionality and provide an online ability to submit your bid list to Southwest Airlines.  This is a database product.  You are purchasing this time limited service agreement as an individual.</mutableString>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <point key="canvasLocation" x="14" y="149"/>
+        </customView>
+        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="ync-GV-67c">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="202"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <textFieldCell key="cell" selectable="YES" id="pC2-KP-toc">
+                <font key="font" usesAppearanceFont="YES"/>
+                <string key="title">Your subscription grants you a time limited service agreement to use our database clients (CrewBid – WBidMax) to access and process data.  Your subscription time may be 1 month or 12 months.  We agree to service the clients to remain functional and we will retain ownership of the software.  Your service agreement allows you to use our database clients to download specific data and then to query the data with select (filter) and sort capabilities.  This will ultimately result in creating what is called a bid list from the data.  In our service agreement, we will maintain the server for functionality and provide an online ability to submit your bid list to Southwest Airlines.  This is a database product.  You are purchasing this time limited service agreement as an individual.</string>
+                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+            </textFieldCell>
+            <point key="canvasLocation" x="32" y="179"/>
+        </textField>
+    </objects>
+</document>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBidMac", "WBidMac\WBidMac.csproj", "{320E53BA-3AB9-4F6A-B2AD-4BE4B3A90E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBid.WBidiPad.Core", "WBid.WBidiPad.Core\WBid.WBidiPad.Core.csproj", "{E98AF22D-5FD1-46D1-96FF-B714B2BAB217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBid.WBidiPad.Model", "WBid.WBidiPad.Model\WBid.WBidiPad.Model.csproj", "{A976044F-410A-4EEE-81AF-32529EC694B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBid.WBidiPad.PortableLibrary", "WBid.WBidiPad.PortableLibrary\WBid.WBidiPad.PortableLibrary.csproj", "{E857C51C-C2BC-4F2C-B5DF-8A5C8A8CEE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBid.WBidiPad.SharedLibrary", "WBid.WBidiPad.SharedLibrary\WBid.WBidiPad.SharedLibrary.csproj", "{DF215889-B65B-4E61-869B-AC63E82DF937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80520F3B-6598-45A1-B0A3-9CDF154488D3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{320E53BA-3AB9-4F6A-B2AD-4BE4B3A90E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320E53BA-3AB9-4F6A-B2AD-4BE4B3A90E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320E53BA-3AB9-4F6A-B2AD-4BE4B3A90E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320E53BA-3AB9-4F6A-B2AD-4BE4B3A90E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98AF22D-5FD1-46D1-96FF-B714B2BAB217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98AF22D-5FD1-46D1-96FF-B714B2BAB217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98AF22D-5FD1-46D1-96FF-B714B2BAB217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98AF22D-5FD1-46D1-96FF-B714B2BAB217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A976044F-410A-4EEE-81AF-32529EC694B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A976044F-410A-4EEE-81AF-32529EC694B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A976044F-410A-4EEE-81AF-32529EC694B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A976044F-410A-4EEE-81AF-32529EC694B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E857C51C-C2BC-4F2C-B5DF-8A5C8A8CEE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E857C51C-C2BC-4F2C-B5DF-8A5C8A8CEE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E857C51C-C2BC-4F2C-B5DF-8A5C8A8CEE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E857C51C-C2BC-4F2C-B5DF-8A5C8A8CEE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF215889-B65B-4E61-869B-AC63E82DF937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF215889-B65B-4E61-869B-AC63E82DF937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF215889-B65B-4E61-869B-AC63E82DF937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF215889-B65B-4E61-869B-AC63E82DF937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D162522-97C7-4630-BF07-2F90812124F4}
+	EndGlobalSection
+EndGlobal

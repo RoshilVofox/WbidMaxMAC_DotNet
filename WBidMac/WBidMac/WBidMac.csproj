@@ -1,0 +1,135 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-macos</TargetFramework>
+<!--   <RuntimeIdentifiers>osx-x64</RuntimeIdentifiers>-->
+  <!-- <RuntimeIdentifiers>osx-arm64</RuntimeIdentifiers>-->
+    <RuntimeIdentifiers>osx-x64;osx-arm64</RuntimeIdentifiers>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>10.15</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+  <ApplicationId>com.wbidmax.wbidmac</ApplicationId>   
+  <ApplicationTitle>WBidMax</ApplicationTitle>        
+  <AssemblyName>WBidMax</AssemblyName>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+    <UseSGen>false</UseSGen>
+    <LinkMode>None</LinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+    <UseSGen>false</UseSGen>
+    <LinkMode>None</LinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+    <InterfaceDefinition Remove="WindowControllers\VacationDifference\VacationDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\CommuteDifference\CommutDifferenceController.xib" />
+    <InterfaceDefinition Remove="WindowControllers\View CAP\ShowCAP.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="WindowControllers\MainWindow\MainWindow.xib" />
+    <None Remove="ViewControllers\SortsView\bck\SortsViewController.cs.orig" />
+    <None Remove="WindowControllers\InitialPositionWindow\" />
+    <None Remove="WindowControllers\JobShareWindow\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WBid.WBidiPad.Core\WBid.WBidiPad.Core.csproj" />
+    <ProjectReference Include="..\WBid.WBidiPad.Model\WBid.WBidiPad.Model.csproj" />
+    <ProjectReference Include="..\WBid.WBidiPad.PortableLibrary\WBid.WBidiPad.PortableLibrary.csproj" />
+    <ProjectReference Include="..\WBid.WBidiPad.SharedLibrary\WBid.WBidiPad.SharedLibrary.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="6.0.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="6.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+    <PackageReference Include="itext" Version="8.0.5" />
+    <PackageReference Include="itext.bouncy-castle-adapter" Version="8.0.5" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>ThrirdParty\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Update="Main1.storyboard">
+      <Link>Main1.storyboard</Link>
+    </InterfaceDefinition>
+    <InterfaceDefinition Update="WindowControllers\MainWindow\MainWindow.xib">
+      <Link>WindowControllers\MainWindow\MainWindow.xib</Link>
+    </InterfaceDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="WindowControllers\MainWindow\MainWindow.xib">
+      <Link>WindowControllers\MainWindow\MainWindow.xib</Link>
+      <IsDefaultItem>true</IsDefaultItem>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Remove="Resources\blueBorder.png" />
+    <BundleResource Remove="Resources\blueBorderSelected.png" />
+    <BundleResource Remove="Resources\ColumnDefinitions.xml.orig" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Condition="'$(_ResourcePrefix)' != ''" Update="Resources\blueBorder.png">
+      <Link>Resources\blueBorder.png</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewControllers\SortsView\bck\SortCell.cs" />
+    <Compile Remove="ViewControllers\SortsView\bck\SortCell.designer.cs" />
+    <Compile Remove="ViewControllers\SortsView\bck\SortsView.cs" />
+    <Compile Remove="ViewControllers\SortsView\bck\SortsView.designer.cs" />
+    <Compile Remove="ViewControllers\SortsView\bck\SortsViewController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WindowControllers\InitialPositionWindow\" />
+    <Folder Include="WindowControllers\JobShareWindow\" />
+  </ItemGroup>
+</Project>
